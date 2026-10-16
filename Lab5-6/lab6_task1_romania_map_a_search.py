@@ -1,9 +1,6 @@
 import heapq
 
 def get_romania_graph():
-    """
-    Returns the adjacency list representation of the Romania map with path costs.
-    """
     return {
         'Arad': [('Zerind', 75), ('Sibiu', 140), ('Timisoara', 118)],
         'Zerind': [('Arad', 75), ('Oradea', 71)],

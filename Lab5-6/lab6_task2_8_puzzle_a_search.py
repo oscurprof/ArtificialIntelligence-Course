@@ -1,9 +1,6 @@
 import heapq
 
 def calculate_heuristic(state, goal_state):
-    """
-    Calculates h(n) as the number of misplaced tiles (excluding blank tile 0).
-    """
     misplaced = 0
     for i in range(3):
         for j in range(3):

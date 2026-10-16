@@ -1,10 +1,6 @@
 import heapq
 
 def get_maze_data():
-    """
-    Defines the grid nodes (A through Y) and their coordinates on a 6x6 grid,
-    along with valid connections based on up/down/left/right traversals.
-    """
     nodes = {
         'A': (0, 0), 'B': (2, 0), 'C': (3, 0), 'D': (4, 0), 'E': (5, 0),
         'F': (0, 1), 'G': (2, 1),
